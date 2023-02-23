@@ -17,21 +17,12 @@ for(let i = 1; i <= 100; i++){
     if(i%3 == 0 && i%5 == 0){
         text = 'FizzBuzz';
         colorClass = 'FizzBuzz';
-        // console.log(`${i}: ${text}`);
-        // box.append(text);
-        // box.classList.add(colorClass);
     }else if(i%3 == 0){
         text = 'Fizz';
         colorClass = 'Fizz';
-        // console.log(`${i}: ${text}`);
-        // box.append(text)
-        // box.classList.add(colorClass);
     }else if (i%5 == 0){
         text = 'Buzz'
         colorClass = 'Buzz';
-        // console.log(`${i}: ${text}`);
-        // box.append(text);
-        // box.classList.add(colorClass);
     }
     
     //Controllo se text non è vuoto a quel punto lo stampo a video e aggiungo al box
