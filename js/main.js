@@ -1,5 +1,5 @@
-let text = '';
-let colorClass = '';
+let text;
+let colorClass;
 const container = document.querySelector('.container');
 
 // Ciclo for da 1 a 100
@@ -38,4 +38,5 @@ for(let i = 1; i <= 100; i++){
     }
     console.log(i, text);
     box.append(text);
+    //box.classList.add(colorClass); Blocca la creazione dei box
 }
