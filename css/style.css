@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #083b4c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 6.25rem;
+}
+.container {
+    max-width: 75rem;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+.box{
+    width: calc(100% / 7 - 1.25rem);
+    margin: 10px;
+    height: 6.25rem;
+    text-align: center;
+    line-height: 6.25rem;
+    background-color: #1389b2;
+    font-weight: bold;
+}
+.FizzBuzz{
+    background-color: #f0466f;
+}
+.Fizz{
+    background-color: #0cd6a1;
+}
+.Buzz{
+    background-color: #ffd166;
+}
